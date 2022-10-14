@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+.contenido {
+    border-top: 20px #cc9900 solid;
+    border-bottom: 20px #5d0201 solid;
+}
+.tecnm {
+    width: 230px;
+    float: left;
+}
+.itm {
+    width: 100px;
+    float: right;
+}
+.menu {
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
+.menu a {
+    width: 168px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-right: -5px;
+}
+.menu a:hover {
+    background-color: #5d0201;
+    color: white;
+}
+.banner {
+    width: 100%;
+}
+.card {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 18px;
+}
+.foto1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.texto {
+    margin-bottom: 10px;
+}
+.engrane {
+    width: 55px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.titulo {
+    width: 200px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 27px;
+    font-family: 'Trebuchet MS';
+    line-height: 35px;
+    color: #5d0201;
+    margin-left: 10px;
+}
+.info {
+    margin-top: 15px;
+}
+.separador {
+    border: 1px gray solid;
+}
+.negro {
+    color: black;
+    vertical-align: middle;
+}
+.dos {
+    margin-top: 33px;
+}
+.instalaciones {
+    width: 172px;
+}
+.img_abajo {
+    width: 100%;
+}
+.titulo_negro {
+    font-size: 40px;
+    font-family: Impact;
+    line-height: 35px;
+    color: black;
+    margin-left: 10px;
+}
+.lista {
+    margin: 20px;
+    margin-left: 70px;
+}
+.texto_egresado {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+.campo_trabajo {
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #5d0201;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.campo_trabajo p {
+    color: white;
+    text-align: justify
+}
+.trabajo_texto {
+    color: #cc9900;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 28px;
+}
+.btn_amarillo {
+    background-color: #fee942;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn_amarillo:hover {
+    background-color: #cc9900;
+}
+.lista li {
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+.ast{
+    color: red;
+}
+form {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    color: black;
+}
+.der_form {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.izq_form {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+input[type=text] {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.ctn_contact {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+#nombre {
+    width: 270px;
+}
+.btn_enviar {
+    background-color: #5d0201;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border: 0;
+}
+.btn_enviar:hover {
+    background-color: #cc9900;
+    color: black;
+    cursor: pointer;
+}
+.d_tres {
+    width: 380px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.footer {
+    background-color: #101518;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.datos {
+    text-align: center;
+    font-size: 18px;
+}
+.logo_footer {
+    width: 120px;
+}
+.footer_txt {
+    margin-top: 25px;
+    font-size: 18px;
+}
+.footer_txt h2 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    color: #cc9900;
+}
